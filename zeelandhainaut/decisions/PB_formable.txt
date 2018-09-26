@@ -1,0 +1,70 @@
+#orion overhaul of formables
+
+country_decisions = {
+
+# Post-Discovery Formables	 
+
+# 	Walloon
+	ir_walloon_nation = {
+		potential = {
+				primary_culture = wallonian
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = wallonia_area
+				area = luxemburg_liege_area 
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			wallonia_area = { 
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			luxemburg_liege_area = { 
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			NOT = { current_age = age_of_discovery }
+			is_at_war = no
+		#	total_development = 300			
+		}
+		effect = {
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			# integrate fiefs
+			custom_tooltip = integrate_fiefs.tooltip
+			hidden_effect = {
+				every_subject_country = {
+					limit = { is_subject_of = ROOT is_subject_of_type = fief NOT = { num_of_cities = 9 } }
+					every_owned_province = {
+						add_core = ROOT
+						cede_province = ROOT
+					}
+				}
+			}
+			change_tag = WLL
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 7300
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = SPA_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_spain_flag #will work on later
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
