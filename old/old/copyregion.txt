@@ -1,0 +1,160 @@
+#############################
+#Imperialism Reinvigorated	#
+#############################
+
+gambia_region = {
+	areas = {
+		cap_verde_area #maybe
+		futa_jallon_area
+		jolof_area
+		tekrur_area
+	}
+	monsoon = {
+		00.06.01
+		00.09.30
+	}
+}
+
+france_region = {
+	areas = {
+		brittany_area
+		normandy_area
+		provence_area
+		guyenne_area #change needed perhaps just call it aquitaine for all purposes
+		languedoc_area #cut and gut this later
+		massif_central_area
+		#Amyz edit
+		savoy_area
+		dauphine_area
+		#edit end
+		lorraine_area
+		picardy_area
+		#seine_area			#Cut in 1.25
+		ile_de_france_area			#Added in 1.25, using it as a 1-to-1 replacement of seine_area
+		loire_area
+		bourgogne_area
+		pyrenees_area
+		#BTADDITIONS
+		poitou_area			#also added by Paradox in 1.25, same id so no change needed.
+		champagne_area			#also added by Paradox in 1.25, same id so no change needed.
+		#PetrusAdd
+		anjou_area
+	}
+}
+
+low_countries_region = {
+	areas = {
+		wallonia_area
+		flanders_area
+		#holland_area			#New in 1.25, but not yet used in BT. Will almost certainly use it later.
+		brabant_area
+		netherlands_area
+		frisia_area
+		luxemburg_liege_area			#Cut in 1.25, but kept in BT for the moment until I can redo the area.
+		#BTADDITIONS
+		guelders_area
+		limburg_area
+		liege_area
+		luxemburg_area
+	}
+}
+
+poland_region = { #Renamedtowestslavia
+	areas = {
+		wielkopolska_area
+		malopolska_area
+		mazovia_area
+		silesia_area
+		central_poland_area
+		sandomierz_area			#added by Paradox in 1.27, same id so no change needed.
+		kuyavia_area			#Repurposing this into BT's old Kalisz area
+		podlasie_area			#moved from Ruthenia
+		#BTADDITIONS
+		lower_silesia_area
+		lublin_area
+		#PetrusAdd
+		erzgebirge_area
+		bohemia_area
+		moravia_area
+		slovakia_area
+	}
+}
+
+south_german_region = {
+	areas = { 
+		tirol_area
+		austria_proper_area
+		inner_austria_area
+		#carinthia_area			#Temporarily disabled, as it contains only 1 province for the moment
+		#switzerland_area #moved to switzerland
+		lower_bavaria_area
+		upper_bavaria_area
+		franconia_area
+		lower_swabia_area
+		upper_swabia_area
+		upper_rhineland_area
+		#romandie_area
+		palatinate_area
+		#BTMovedFromNorthGermany
+		#erzgebirge_area #moved to poland
+		#bohemia_area #moved to poland
+		#BTADDITIONS
+		#moravia_area #moved to poland
+
+	}
+}
+
+switzerland_region = {
+	areas = {
+		switzerland_area
+		romandie_area
+		grl_area
+		basel_area
+		zurich_area
+	}
+}
+
+iberia_region = { #complete rework by Amyzo
+	areas = {
+		aragon_area
+		catalonia_area
+		valencia_area
+		#lower_andalucia_area replaced with cordoba_area
+		#upper_andalucia_area replaced with granada_area
+		castille_area
+		toledo_area
+		asturias_area
+		leon_area
+		#alentejo_area replaced with upper and lower alentejo
+		beieras_area
+		macaronesia_area
+		basque_area			#Can't figure this one out... appears to be basque country in vanilla??? only area not named area???
+		#BTADDITIONS
+		balearic_islands_area
+		extremadura_area
+		spanish_galicia_area
+		murcia_area
+		#Amyzonis Additions
+		zamora_area
+		burgos_area
+		rioja_area
+		cuenca_area
+		cordoba_area
+		granada_area
+		sevilla_area
+		cadiz_area
+		malaga_area
+		tagus_area
+		sado_area
+		guadiana_area
+		madrid_area
+		vizcaya_area
+		urgell_area
+		castellon_area
+		porto_area
+		tarragona_area
+		pyrennes_area
+		teruel_area
+		canaries_area
+	}
+}
