@@ -1,4 +1,4 @@
-# 91 Hainaut - Principal cities: Mons & Tournai
+# 91 Hainaut - Principal cities: Mons
 #Region - Low Countries
 #Area - Wallonia
 
@@ -6,9 +6,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = BUR
-controller = BUR
-add_core = BUR
+owner = HAI
+controller = HAI
+add_core = HAI
 capital = "Mons"
 is_city = yes
 culture = wallonian
@@ -18,7 +18,6 @@ base_tax = 10
 base_production = 10
 trade_goods = cloth
 base_manpower = 6
-add_core = HAI
 
 discovered_by = western
 discovered_by = muslim

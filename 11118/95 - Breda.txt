@@ -1,4 +1,4 @@
-# 95 Breda - Principal cities: 's Hertogenbosch & Breda
+# 95 Breda - Principal cities: Breda, Tilburg etc.
 #Region - Low Countries
 #Area - Brabant
 
@@ -7,7 +7,7 @@ controller = BRB
 add_core = BRB
 is_city = yes
 capital = "Breda"
-culture = dutch
+culture = flemish #brabants to be more correct
 religion = catholic
 hre = yes
 base_tax = 10
@@ -26,6 +26,9 @@ add_permanent_province_modifier = {
 	name = meuse_estuary_modifier
 	duration = -1
 }
+
+#New history Petrus
+#In 1430, Philip of Brabant died childless, leaving his cousin Philip the Good as his heir in Brabant, Lothier, and Limburg.
 
 #New history by Draiocht
 1477.1.5 = { owner = HAB controller = HAB add_core = HAB }	#from vanilla. Mary of Burgundy, an heiress, passes all Burgundian holdings in the Low Countries to the Habsburgs

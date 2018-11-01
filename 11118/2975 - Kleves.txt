@@ -4,9 +4,9 @@ owner = KLE #In reality Kleves and Berg are not united before 1510.
 
 controller = KLE
 add_core = KLE
-culture = hessian
+culture = meuse_rhenish
 religion = catholic
-trade_goods = cloth
+trade_goods = grain #fertile soil near rhine river
 capital = "Kleve"
 base_tax = 6
 base_production = 6

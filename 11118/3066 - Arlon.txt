@@ -2,9 +2,9 @@
 #Region - Low Countries
 #Area - Liege
 
-owner = BUR
-controller = BUR
-add_core = BUR 
+owner = LUX
+controller = LUX
+add_core = LUX
 capital = "Arlon"
 is_city = yes
 culture = wallonian
@@ -12,9 +12,8 @@ religion = catholic
 hre = yes
 base_tax = 8
 base_production = 8
-trade_goods = iron
-base_manpower = 4 
-add_core = LUX
+trade_goods = iron #not really original, too much iron in this region
+base_manpower = 4
 
 discovered_by = western
 discovered_by = muslim

@@ -1,11 +1,12 @@
-
+#85 Köln - Principal city: Köln
 #Region - Germany
 #Area - North Rhine
 
 owner = KOL
 controller = KOL
 add_core = KOL
-culture = hessian
+add_core = FSK
+culture = central_frankish #part of northrhine luxemburg cultural area
 religion = catholic
 trade_goods = grain
 capital = "Köln"
@@ -29,6 +30,7 @@ center_of_trade = 2
 1583.12.17 = { fort_15th = no }
 1638.1.1 = { base_tax = 20
 base_production = 20 } # Köln manages to stay neutral in the 30 years war and prospers through weapon sales. 
+1650.1.1 = { owner = FSK controller = FSK } #around here Koln becomes an imperial city
 1716.1.1 = { base_tax = 22 
 base_production = 22 } # Farnia begins exporting "Eau de Cologne" 
 1798.1.1 = { controller = FRA }

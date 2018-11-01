@@ -4,7 +4,7 @@
 
 owner = TRI
 controller = TRI
-culture = hessian
+culture = central_frankish
 religion = catholic
 trade_goods = grain
 capital = "Trier"
