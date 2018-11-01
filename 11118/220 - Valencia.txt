@@ -2,9 +2,8 @@
 #Region - Iberia
 #Area - Valencia
 
-owner = ARA	#Alfons V of Aragon
-controller = ARA
-add_core = ARA
+owner = VAL	#Alfons V of Aragon
+controller = VAL
 add_core = VAL
 culture = catalan
 religion = catholic
@@ -23,10 +22,8 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-extra_cost = 15
-
+extra_cost = 16
 center_of_trade = 2
-
 
 1516.1.23 = {
 	controller = SPA

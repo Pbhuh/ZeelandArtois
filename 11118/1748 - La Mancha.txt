@@ -1,17 +1,17 @@
-#1748 - La Mancha
+#1748 - La Mancha/JaŽn
 #Region - Iberia
 #Area - Lower Andalucia
 
-owner = CAS		#Enrique III of Castille
-controller = CAS
-add_core = CAS
+owner = JAE		#Enrique III of Castille
+controller = JAE
+add_core = JAE
 culture = andalucian
 religion = catholic
 hre = no
 base_tax = 4 
 base_production = 4 
 trade_goods = wool 
-base_manpower = 4 
+base_manpower = 3 
 capital = "Jaén"
 estate = estate_church 
 is_city = yes

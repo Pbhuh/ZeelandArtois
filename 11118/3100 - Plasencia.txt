@@ -2,16 +2,15 @@
 #Region - Iberia
 #Area - Leon
 
-owner = CAS		#Enrique III of Castille
-controller = CAS
-add_core = CAS
+owner = LON		#Enrique III of Castille
+controller = LON
 add_core = LON
-culture = leonese
+culture = extremaduran
 religion = catholic
 hre = no
 base_tax = 4  
 base_production = 4 
-trade_goods = wool 
+trade_goods = grain 
 base_manpower = 2 
 capital = "Plasencia" 
 is_city = yes

@@ -2,15 +2,14 @@
 #Region - Iberia
 #Area - Asturias
 
-owner = CAS		#Juan II of Castille
-controller = CAS
-add_core = CAS
+owner = GAL		
+controller = GAL
 add_core = GAL
 culture = galician
 religion = catholic
 hre = no
-base_tax = 4 
-base_production = 4 
+base_tax = 3 
+base_production = 3 
 trade_goods = fish
 base_manpower = 2 
 capital = "Lugo" 

@@ -6,17 +6,17 @@ latent_trade_goods = {
 	coal
 }
 
-owner = CAS		#Juan II of Castille
-controller = CAS
-add_core = CAS
+owner = LON		#Juan II of Castille
+controller = LON
 add_core = LON
-culture = leonese
+add_core = ATS
+culture = asturian
 religion = catholic
 hre = no
 base_tax = 6
-base_production = 6
-trade_goods = livestock 
-base_manpower = 6
+base_production = 5
+trade_goods = iron 
+base_manpower = 5
 capital = "Oviedo" 
 is_city = yes
 
