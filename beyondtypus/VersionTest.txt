@@ -1,0 +1,4 @@
+#This is version something or rather. Huzzah!
+#This should be 9.985 for Paradox patch 1.27, unless I forgot to update the version number here, in which case, you're out of luck.
+
+#Do note this version 9.985 is essentially an open beta and probably a bit buggy.
